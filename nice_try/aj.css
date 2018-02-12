@@ -1,0 +1,40 @@
+.header{
+	background-color: #020e19;
+	width: max-width;
+	height: 20px;
+}
+
+.content{
+	background-color: #031b33;
+	width: max-width;
+	height: 380px;
+}
+
+.banner {
+	margin-left: 55px;
+}
+
+
+.menu{
+	background-color: #101720;
+	color: white;
+	padding-left: 165px;
+	margin-left: auto;
+    margin-right: auto;
+	margin: 0;
+		
+}
+.nav{
+	list-style-type: none;
+	display: inline-block;
+	border: 0px solid magenta;
+	font-family: colibry;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -2px;
+    padding: 10px;
+	cursor: pointer;
+}
+.nav:hover{
+	background-color:blue
+	}
