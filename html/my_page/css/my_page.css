@@ -1,0 +1,118 @@
+.my_name {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "open sans";
+    background: grey;
+    text-align: center;
+    padding: 15px;
+}
+
+.about-me {
+    font: 20px open sans;
+    color: #FFFFFF;
+    background: #464646;
+    padding: 40px;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-bottom: 2px groove #2980b9;
+    height: 20px;
+    width: 800px;
+    color: #2980b9;
+    font: 14px bold "open sans", sans-serif;
+}
+
+.link-img {
+    width: 800px;
+    height: 350px;
+    display: inline-table;
+    margin-bottom: 25px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.p_item {
+    height: 100px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.p_item-div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.projects ul {
+    list-style-type: none;
+    display: inline;
+}
+
+.badges ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.badges p {
+    text-align: left;
+}
+
+.courses ul {
+    list-style-type: none;
+    text-align: left;
+    font: 20px "open sans";
+    font-weight: bold;
+    padding: 0;
+}
+
+.courses li {
+    padding: 10px;
+}
+
+.skill {
+    margin-top: 20px;
+}
+
+.skills {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px;
+    margin: 12px;
+    font-family: "open sans";
+}
+
+.emailarea {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "open sans";
+    background: linear-gradient(to bottom, #2980b9, #5ceeec);
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.link-to-email {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link-to-email:hover {
+    color: red;
+}
+
+/*# sourceMappingURL=my_page.css.map */

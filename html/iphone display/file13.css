@@ -1,0 +1,55 @@
+.main {
+    width: 256px;
+    margin: auto;
+    background-color: #7dbde9;
+    color: #FFFFFF;
+}
+
+.children1 {
+    display: inline-block;
+    width: 63%;
+    text-align: left;
+}
+
+.children2 {
+    display: inline-block;
+    width: 32%;
+    text-align: right;
+}
+
+.track_name {
+    text-align: center;
+    font-size: large;
+    border-top: 1px solid #ffffff;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.track_name1 {
+    font-size: smaller;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.backward {
+    display: inline-block;
+    text-align: left;
+    padding-left: 31px;
+}
+
+.play {
+    display: inline-block;
+    text-align: center;
+    padding: 64px;
+}
+
+.forward {
+    display: inline-block;
+    text-align: right;
+
+}
+
+.range {
+    padding-left: 15px;
+    padding-bottom: 30px;
+}

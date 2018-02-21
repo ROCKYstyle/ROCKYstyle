@@ -1,0 +1,5 @@
+git init
+git commit -a -m 'my commit'
+git push origin master
+git status
+git remote add origin https://github.com/ROCKYstyle/ROCKYstyle.git

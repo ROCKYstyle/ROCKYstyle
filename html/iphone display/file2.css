@@ -1,0 +1,135 @@
+.main {
+    width: 256px;
+    margin: auto;
+
+}
+
+.countMessages {
+    color: #ffffff;
+    background: #ff0000;
+    min-width: 20px;
+    height: auto;
+    padding: 1px;
+    border-radius: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -120px;
+    margin-left: 33px;
+    position: absolute;
+}
+
+.center {
+    text-align: center;
+
+}
+
+.contacts > div {
+    padding: 5px;
+    /*display: block; */
+
+}
+
+.contacts > div:first-child {
+    border: 1px solid #4c90bd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #4c90bd;
+}
+
+.contacts :not(:first-child):not(:last-child):nth-child(1n+1) {
+    border: 1px solid #4c90bd;
+    color: #4c90bd;
+    border-top: 0px;
+
+}
+
+.contacts > div:last-child {
+    border: 1px solid #4c90bd;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #4c90bd;
+    border-top: none;
+}
+
+.contacts .value {
+    text-align: right;
+}
+
+.contacts .type {
+    font-weight: bold;
+}
+
+.background {
+    background: #7dbde9;
+    color: #ffffff;
+    margin-bottom: 20px; /* ОТСТУП */
+}
+
+.avatar {
+    padding: 3px;
+    /*margin: 3px; */
+    height: 20px;
+}
+
+.children {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.children1 {
+    display: inline-block;
+    width: 32%;
+    text-align: left;
+}
+
+.children2 {
+    display: inline-block;
+    width: 32%;
+    text-align: right;
+}
+
+.friends, .followers {
+    display: inline-block;
+    padding-left: 4px;
+
+}
+
+.quantity {
+    /* Количество Друзей, Фоллеверов */
+    text: bold;
+    font-size: medium;
+}
+
+.friends:first-child {
+    border-right: 1px solid #FFFFFF;
+    padding-right: 3px;
+}
+
+.friends span:first-child {
+    font-weight: bold;
+    display: block;
+}
+
+.friends span:last-child {
+    font-size: small;
+}
+
+.followers {
+    border-left: 1px solid #ffffff;
+    padding: 4px;
+}
+
+.user {
+    border-top: 1px solid #ffffff;
+}
+
+.profile {
+    width: 33px;
+}
+
+.a {
+    color: #ffffff;
+    text-decoration: none;
+}
+

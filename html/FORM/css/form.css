@@ -1,0 +1,31 @@
+.label {
+    color: #ff6600;
+}
+
+.background {
+    background-color: lightgray;
+    width: 303px;
+    height: 25px;
+}
+
+.inputFirst {
+    display: inline-block;
+    height: 29px;
+    width: 150px;
+}
+
+.inputSecond {
+    display: inline-block;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 35px;
+    margin-left: -5px;
+
+}
+
+.inputSecond:hover {
+    background-color: blue;
+    color: #ff6600;
+}

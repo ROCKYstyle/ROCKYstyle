@@ -1,0 +1,16 @@
+.h1 {
+    font-size: 18px;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.a-bold {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+img {
+    float: left;
+}

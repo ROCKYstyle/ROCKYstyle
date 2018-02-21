@@ -1,0 +1,55 @@
+.container{
+  width: 100%;
+  display: flex;
+}
+.menu{
+  flex-basis: 20%;
+  &__list{
+    margin: 0;
+    padding: 0;
+    &-item{
+      border: 1px solid #2d3743;
+      list-style-type: none;
+      margin: 0;
+      padding: 15px;
+      border-bottom: none;
+      color: #e8eff5;
+      background-color: #323e4a;
+      &:hover{
+        background-color: #2e3844;
+      }
+      &-name{
+        display: inline-block;
+        padding-bottom: 0;
+        margin: 0;
+        vertical-align: middle;
+      }
+      &-avatar{
+        width: 35px;
+        border-radius: 7px;
+      }
+      &-arrow{
+        float: right;
+        color: black;
+        padding-top: 15px;
+      }
+      &-countMessages {
+        color: #323e4a;
+        background: #e8eff5;
+        min-width: 32px;
+        padding: 1px;
+        border-radius: 7px;
+        display: inline-block;
+        float: right;
+        text-align: center;
+      }
+    }
+    &-empty{
+      width: auto;
+      height: 200px;
+      background-color: #323e4a;
+      list-style-type: none;
+      border-top: 1px solid #2d3743;
+    }
+  }
+}

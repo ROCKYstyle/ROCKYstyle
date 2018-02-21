@@ -1,0 +1,97 @@
+.b-groups {
+  display: inline-block;
+  vertical-align: top;
+  // todo откуда 4 px?
+  width: calc(100% - 204px);
+  text-align: center;
+
+  &__header {
+    list-style: none;
+    background: linear-gradient(to top, #475f85, #6d8cba);
+    padding: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 0;
+    color: #ccc;
+
+    &-list {
+      //border: 1px solid #00255d;
+      display: inline-block;
+      border-radius: 10px;
+    }
+
+    &-item {
+      font-size: 17px;
+      display: inline-block;
+      border: 1px solid #344b75;
+      padding: 5px;
+      cursor: pointer;
+
+      &_active, &:hover {
+        background: #475f85;
+      }
+
+      &:first-child {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      &:last-child {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+    }
+  }
+
+  &__search {
+    background: linear-gradient(to top, #aeb7c6, #d7dee8);
+    padding: 10px;
+    position: relative;
+
+    &-text {
+      width: 100%;
+      border-radius: 10px;
+      padding: 0 27px;
+      height: 22px;
+    }
+    &-icon {
+      position: absolute;
+      top: 11px;
+      left: 14px;
+      color: gray;
+    }
+  }
+
+  .e-groups {
+    list-style: none;
+    background: #d9dfeb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+    &__group {
+      margin: 10px;
+      padding: 10px;
+      flex-basis: calc(50% - 20px);
+      min-width: 262px;
+      flex-grow: 1;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 0 rgba(0,0,0,0.2);
+
+      &-type, &-title, &-counter {
+        display: block;
+        text-align: left;
+      }
+      &-image {
+        border-radius: 10px;
+        border: 1px solid black;
+        width: 75px;
+        height: 75px;
+        float: left;
+        margin-right: 5px;
+      }
+    }
+  }
+}

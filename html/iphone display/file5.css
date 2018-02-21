@@ -1,0 +1,63 @@
+.main {
+    width: 256px;
+    margin: auto;
+
+}
+
+.children1 {
+    display: inline-block;
+    width: 32%;
+    text-align: left;
+    color: #7dbde9;
+}
+
+.MyList {
+    text-align: center;
+    color: #4c90bd;
+}
+
+.contacts > div {
+    padding: 10px;
+    /*display: block; */
+
+}
+
+.contacts > div:hover {
+    padding: 10px;
+    background-color: #7dbde9;
+
+}
+
+.contacts {
+    margin-top: 20px;
+}
+
+.contacts > div:first-child {
+    border: 1px solid #4c90bd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #4c90bd;
+}
+
+.contacts :not(:first-child):not(:last-child):nth-child(1n+1) {
+    border: 1px solid #4c90bd;
+    color: #4c90bd;
+    border-top: 0px;
+
+}
+
+.contacts > div:last-child {
+    border: 1px solid #4c90bd;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #4c90bd;
+    border-top: none;
+}
+
+/*.contacts .type{
+    font-weight: bold;
+} */
+
+.contacts .value {
+    float: right;
+}

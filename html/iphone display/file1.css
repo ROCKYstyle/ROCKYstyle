@@ -1,0 +1,71 @@
+.main {
+    width: 177px;
+    margin: auto;
+
+}
+
+.fa {
+    color: #4c90bd; /*цвет текста */
+    /* background: #ffffff; Цвет фона */
+    /*padding: 5px;  Поля вокруг текста */
+
+}
+
+::-webkit-input-placeholder, ::-moz-placeholder, :-moz-placeholder:-ms-input-placeholder {
+    color: #4c90bd;
+}
+
+.inputFirst, .inputSecond {
+    border: 1px solid #4c90bd;
+    padding: 3px;
+    color: #4c90bd;
+    display: block;
+}
+
+.inputFirst {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 0px;
+}
+
+.inputSecond {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.m {
+    color: #ffffff;
+    background: #6cafda;
+    min-width: 20px;
+    height: auto;
+    padding: 1px;
+    border-radius: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+.inputSubmit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background: #4c90bd;
+    height: 35px; /* Высота блока */
+    width: 177px; /* Ширина блока */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #4c90bd;
+}
+
+.a {
+    color: #4c90bd;
+    text-decoration: none;
+
+}
+
+.center {
+    text-align: center;
+}

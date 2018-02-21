@@ -1,0 +1,26 @@
+.menu_button {
+    /* height: 70px; */
+    width: 468px;
+    background-color: white;
+    border-top: 10px solid red;
+    border-bottom: 10px solid red;
+    font-size: xx-large;
+    margin: 100px auto;
+    padding: 10px 0;
+}
+
+.text {
+    color: #FFFFFF;
+    display: block;
+    background-color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: green;
+    color: blue;
+}
+
+i:hover {
+    color: black;
+}

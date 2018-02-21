@@ -1,0 +1,84 @@
+.b-menu {
+  list-style: none;
+  padding: 0;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  //position: absolute;
+  //left: -200px;
+
+  &__page{
+    //display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    color: #ccc;
+    border-bottom: 1px solid #2d3743;
+  }
+  &__toggle{
+    text-align: right;
+  }
+
+  &__switch{
+    cursor: pointer;
+  }
+
+
+  &__item {
+    //display: flex;
+    //justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    color: #ccc;
+    border-bottom: 1px solid #2d3743;
+
+
+    &_active, &:hover {
+      background:  #2e3844;
+    }
+  }
+
+  &__image {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+  }
+  &__icon {
+    vertical-align: middle;
+    &_item{
+      min-width: 30px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+    }
+    &_arrow {
+      color: black;
+      float: right;
+      padding: 7px;
+      font-weight: bold;
+    }
+    &_counter {
+      color: #323e4a;
+      background: linear-gradient(to top, #505050, #e8eff5);
+      border-radius: 10px;
+      padding: 2px 7.5px;
+      font-weight: bold;
+      float: right;
+    }
+  }
+  &__text {
+    vertical-align: middle;
+  }
+}
+
+#menuToggle{
+  //display: none;
+  :checked ~ {
+    .b-menu, .b-menu__text, .b-menu__icon_counter{
+      display: none;
+    }
+  }
+}
+
