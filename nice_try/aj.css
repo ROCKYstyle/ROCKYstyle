@@ -14,6 +14,10 @@
 	margin-left: 55px;
 }
 
+.nav{
+	margin-left: 55px;
+    margin-right: 55px;
+}
 
 .menu{
 	background-color: #101720;
@@ -24,7 +28,7 @@
 	margin: 0;
 		
 }
-.nav{
+.nav_item{
 	list-style-type: none;
 	display: inline-block;
 	border: 0px solid magenta;
@@ -35,6 +39,6 @@
     padding: 10px;
 	cursor: pointer;
 }
-.nav:hover{
+.nav_item:hover{
 	background-color:blue
 	}
