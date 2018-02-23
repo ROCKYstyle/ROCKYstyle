@@ -22,23 +22,59 @@
 .menu{
 	background-color: #101720;
 	color: white;
-	padding-left: 165px;
 	margin-left: auto;
     margin-right: auto;
 	margin: 0;
 		
 }
+
+.nav_item > div:first-child{
+	border-radius: 5px 0 0 5px;
+	list-style-type: none;
+    display: block;
+    border-right: 1px solid grey;
+    font-family: colibry;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    float: left;
+    width: 115px;
+    text-align: center;
+    margin: 0;
+}
 .nav_item{
 	list-style-type: none;
-	display: inline-block;
-	border: 0px solid magenta;
-	font-family: colibry;
-	font-size: 16px;
-	font-weight: bold;
-	margin: -2px;
+    display: block;
+    border-right: 1px solid grey;      //file 5.css iphhone display
+    font-family: colibry;
+    font-size: 16px;
+    font-weight: bold;
     padding: 10px;
-	cursor: pointer;
+    cursor: pointer;
+    float: left;
+    width: 115px;
+    text-align: center;
+    margin: 0;
+     
+}
+
+.nav_item > div:last-child{
+	border-radius: 0 5px 5px 0px;
+	border-right: none;
+	list-style-type: none;
+    display: block;
+    border-right: 1px solid grey;
+    font-family: colibry;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    float: left;
+    width: 115px;
+    text-align: center;
+    margin: 0;
 }
 .nav_item:hover{
-	background-color:blue
+	background-color: blue;
 	}
